@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: lightgray;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr 40px);
+    gap:10px
+}
+.item{
+    background-color: indigo;
+    font-size: 2rem;
+    color: #fff;
+}
